@@ -1,6 +1,17 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Boilerplate from '../components/Boilerplate.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/index.scss';
+
 ---
-<Layout>
-	
-</Layout>
+<Boilerplate title="Blurr">
+	<main class="main">
+		<h1>blurr</h1>
+		<h2>Make background blurry images instantly with Blurr. No more expensive photo editors.</h2>
+		<form>
+			<input type="email" placeholder="Enter your email address" />
+			<button type="submit">Get Notified</button>
+		</form>
+	</main>
+	<Footer content="© 2014 Blurr. All right reserved. " />
+</Boilerplate>

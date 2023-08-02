@@ -1,0 +1,19 @@
+---
+const { content } = Astro.props as { content: string };
+---
+
+<footer class="footer d-flex justify-content-center align-items-center">
+  {content}
+</footer>
+
+<style>
+  .footer {
+    height: 5vh;
+    width: 100vw;
+    color: white;
+
+    background-color: #2f292b;
+
+    color: rgb(212, 212, 212);
+  }
+</style>
